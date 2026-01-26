@@ -136,3 +136,4 @@ if not st.session_state.run:
     for cap in caps.values():
         cap.release()
 
+
