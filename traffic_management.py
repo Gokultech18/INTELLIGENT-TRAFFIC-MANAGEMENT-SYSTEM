@@ -4,6 +4,7 @@ from ultralytics import YOLO
 import time
 import os
 os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+import cv2
 # ---------------- SETUP ----------------
 st.set_page_config(layout="wide")
 st.title("🚦 Intelligent Traffic Management System (Smart Cyclic Signals)")
@@ -135,5 +136,6 @@ if st.session_state.run:
 if not st.session_state.run:
     for cap in caps.values():
         cap.release()
+
 
 
