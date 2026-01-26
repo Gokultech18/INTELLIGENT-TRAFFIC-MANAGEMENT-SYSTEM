@@ -1,0 +1,28 @@
+/* Traffic Management System Styles */
+
+.green-signal {
+    background-color: #00C853;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.red-signal {
+    background-color: #D50000;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.yellow-signal {
+    background-color: #FFD600;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
